@@ -14,6 +14,9 @@
 		9B50FDA72054271E00A2AD22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B50FDA52054271E00A2AD22 /* LaunchScreen.storyboard */; };
 		9B50FDB22054271E00A2AD22 /* BluetoothCompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B50FDB12054271E00A2AD22 /* BluetoothCompassTests.swift */; };
 		9B50FDBD2054271E00A2AD22 /* BluetoothCompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B50FDBC2054271E00A2AD22 /* BluetoothCompassUITests.swift */; };
+		AC0A58B92F953AFA09DC172B /* Pods_BluetoothCompass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFE32C1C04BE13B247ECAE8 /* Pods_BluetoothCompass.framework */; };
+		CFECDA9342B055523CFE1CDF /* Pods_BluetoothCompassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021EB1839E5F729DB6569ABD /* Pods_BluetoothCompassUITests.framework */; };
+		FCC5F88A18A4C3951A4D2CC0 /* Pods_BluetoothCompassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D11249E9D87727F69379D52E /* Pods_BluetoothCompassTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021EB1839E5F729DB6569ABD /* Pods_BluetoothCompassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluetoothCompassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6900C51EA7FDF608A6D09593 /* Pods-BluetoothCompassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothCompassUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BluetoothCompassUITests/Pods-BluetoothCompassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		812B96AE3E78F7A08FE364E0 /* Pods-BluetoothCompass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothCompass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BluetoothCompass/Pods-BluetoothCompass.debug.xcconfig"; sourceTree = "<group>"; };
 		9B50FD992054271D00A2AD22 /* BluetoothCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B50FD9C2054271D00A2AD22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B50FD9E2054271D00A2AD22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		9B50FDB82054271E00A2AD22 /* BluetoothCompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothCompassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B50FDBC2054271E00A2AD22 /* BluetoothCompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCompassUITests.swift; sourceTree = "<group>"; };
 		9B50FDBE2054271E00A2AD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACFE32C1C04BE13B247ECAE8 /* Pods_BluetoothCompass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluetoothCompass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B829B33F643CC952AF8D03ED /* Pods-BluetoothCompassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothCompassTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BluetoothCompassTests/Pods-BluetoothCompassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D11249E9D87727F69379D52E /* Pods_BluetoothCompassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BluetoothCompassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD25AC5D3DC2C3BEA965491 /* Pods-BluetoothCompass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothCompass.release.xcconfig"; path = "Pods/Target Support Files/Pods-BluetoothCompass/Pods-BluetoothCompass.release.xcconfig"; sourceTree = "<group>"; };
+		F23815062B0D74177775C7C3 /* Pods-BluetoothCompassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothCompassUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BluetoothCompassUITests/Pods-BluetoothCompassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB7698F4B80E082F460D559C /* Pods-BluetoothCompassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BluetoothCompassTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BluetoothCompassTests/Pods-BluetoothCompassTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0A58B92F953AFA09DC172B /* Pods_BluetoothCompass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC5F88A18A4C3951A4D2CC0 /* Pods_BluetoothCompassTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFECDA9342B055523CFE1CDF /* Pods_BluetoothCompassUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AF7CE6B0E9C41ABC4E1858D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				812B96AE3E78F7A08FE364E0 /* Pods-BluetoothCompass.debug.xcconfig */,
+				EDD25AC5D3DC2C3BEA965491 /* Pods-BluetoothCompass.release.xcconfig */,
+				B829B33F643CC952AF8D03ED /* Pods-BluetoothCompassTests.debug.xcconfig */,
+				FB7698F4B80E082F460D559C /* Pods-BluetoothCompassTests.release.xcconfig */,
+				6900C51EA7FDF608A6D09593 /* Pods-BluetoothCompassUITests.debug.xcconfig */,
+				F23815062B0D74177775C7C3 /* Pods-BluetoothCompassUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9B50FD902054271D00A2AD22 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				9B50FDB02054271E00A2AD22 /* BluetoothCompassTests */,
 				9B50FDBB2054271E00A2AD22 /* BluetoothCompassUITests */,
 				9B50FD9A2054271D00A2AD22 /* Products */,
+				9B58E62A20545AFC0031A2B4 /* Frameworks */,
+				5AF7CE6B0E9C41ABC4E1858D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = BluetoothCompassUITests;
 			sourceTree = "<group>";
 		};
+		9B58E62A20545AFC0031A2B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFE32C1C04BE13B247ECAE8 /* Pods_BluetoothCompass.framework */,
+				D11249E9D87727F69379D52E /* Pods_BluetoothCompassTests.framework */,
+				021EB1839E5F729DB6569ABD /* Pods_BluetoothCompassUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B50FDC12054271E00A2AD22 /* Build configuration list for PBXNativeTarget "BluetoothCompass" */;
 			buildPhases = (
+				027D7AD857513E7991D8360C /* [CP] Check Pods Manifest.lock */,
 				9B50FD952054271D00A2AD22 /* Sources */,
 				9B50FD962054271D00A2AD22 /* Frameworks */,
 				9B50FD972054271D00A2AD22 /* Resources */,
+				F5175A8ED2FDA91C99D2820F /* [CP] Embed Pods Frameworks */,
+				F694341CD5EE903B526AF91A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B50FDC42054271E00A2AD22 /* Build configuration list for PBXNativeTarget "BluetoothCompassTests" */;
 			buildPhases = (
+				23D69F167A653EB082BF8205 /* [CP] Check Pods Manifest.lock */,
 				9B50FDA92054271E00A2AD22 /* Sources */,
 				9B50FDAA2054271E00A2AD22 /* Frameworks */,
 				9B50FDAB2054271E00A2AD22 /* Resources */,
+				16B00E671CF0F37615B79558 /* [CP] Embed Pods Frameworks */,
+				33E1EF163A8ED14CC8DBEFE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B50FDC72054271E00A2AD22 /* Build configuration list for PBXNativeTarget "BluetoothCompassUITests" */;
 			buildPhases = (
+				4202A42BE24D66EFB8C7CFA9 /* [CP] Check Pods Manifest.lock */,
 				9B50FDB42054271E00A2AD22 /* Sources */,
 				9B50FDB52054271E00A2AD22 /* Frameworks */,
 				9B50FDB62054271E00A2AD22 /* Resources */,
+				4E0C7AD52BC0842AD9577ADB /* [CP] Embed Pods Frameworks */,
+				49E9D5EFB9693AE2FB39DBB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +242,14 @@
 				TargetAttributes = {
 					9B50FD982054271D00A2AD22 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					9B50FDAC2054271E00A2AD22 = {
 						CreatedOnToolsVersion = 9.3;
@@ -250,6 +307,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		027D7AD857513E7991D8360C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BluetoothCompass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16B00E671CF0F37615B79558 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluetoothCompassTests/Pods-BluetoothCompassTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23D69F167A653EB082BF8205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BluetoothCompassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33E1EF163A8ED14CC8DBEFE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluetoothCompassTests/Pods-BluetoothCompassTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4202A42BE24D66EFB8C7CFA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BluetoothCompassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49E9D5EFB9693AE2FB39DBB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluetoothCompassUITests/Pods-BluetoothCompassUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E0C7AD52BC0842AD9577ADB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluetoothCompassUITests/Pods-BluetoothCompassUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5175A8ED2FDA91C99D2820F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BluetoothCompass/Pods-BluetoothCompass-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluetoothCompass/Pods-BluetoothCompass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F694341CD5EE903B526AF91A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BluetoothCompass/Pods-BluetoothCompass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9B50FD952054271D00A2AD22 /* Sources */ = {
@@ -427,15 +634,13 @@
 		};
 		9B50FDC22054271E00A2AD22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812B96AE3E78F7A08FE364E0 /* Pods-BluetoothCompass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S483A8JE4M;
 				INFOPLIST_FILE = BluetoothCompass/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bethbousfield.BluetoothCompass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -445,15 +650,13 @@
 		};
 		9B50FDC32054271E00A2AD22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD25AC5D3DC2C3BEA965491 /* Pods-BluetoothCompass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S483A8JE4M;
 				INFOPLIST_FILE = BluetoothCompass/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bethbousfield.BluetoothCompass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -463,17 +666,14 @@
 		};
 		9B50FDC52054271E00A2AD22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B829B33F643CC952AF8D03ED /* Pods-BluetoothCompassTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S483A8JE4M;
 				INFOPLIST_FILE = BluetoothCompassTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bethbousfield.BluetoothCompassTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -484,17 +684,14 @@
 		};
 		9B50FDC62054271E00A2AD22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7698F4B80E082F460D559C /* Pods-BluetoothCompassTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S483A8JE4M;
 				INFOPLIST_FILE = BluetoothCompassTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bethbousfield.BluetoothCompassTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -505,16 +702,13 @@
 		};
 		9B50FDC82054271E00A2AD22 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6900C51EA7FDF608A6D09593 /* Pods-BluetoothCompassUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S483A8JE4M;
 				INFOPLIST_FILE = BluetoothCompassUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bethbousfield.BluetoothCompassUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -525,16 +719,13 @@
 		};
 		9B50FDC92054271E00A2AD22 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23815062B0D74177775C7C3 /* Pods-BluetoothCompassUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S483A8JE4M;
 				INFOPLIST_FILE = BluetoothCompassUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bethbousfield.BluetoothCompassUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

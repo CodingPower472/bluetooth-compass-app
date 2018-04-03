@@ -1,0 +1,6 @@
+framework module Pods_BluetoothCompassUITests {
+  umbrella header "Pods-BluetoothCompassUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
